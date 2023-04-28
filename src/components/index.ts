@@ -1,0 +1,10 @@
+export { default as Home } from "./Home.vue";
+export { default as Login } from "./Login.vue";
+export { default as AdminBoard } from "./AdminBoard.vue";
+export { default as Chat } from "./Chat.vue";
+export { default as Message } from "./Message.vue";
+export { default as NavBar } from "./Message.vue";
+export { default as PasswordReset } from "./PasswordReset.vue";
+export { default as VerifyAccount } from "./VerifyAccount.vue";
+export { default as Profile } from "./Profile.vue";
+export { default as Register } from "./Register.vue";
