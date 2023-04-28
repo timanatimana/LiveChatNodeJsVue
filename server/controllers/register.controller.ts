@@ -45,10 +45,6 @@ export const register = async (req: Request, res: Response, next: any) => {
         text: message,
         subject: "Registration at ----addev - live chat----",
       });
-      res.status(200).json({
-        success: true,
-        data: "Validate account email sent",
-      });
     } catch (error) {
       await user.deleteOne();
 

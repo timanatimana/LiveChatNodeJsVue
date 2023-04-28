@@ -199,7 +199,6 @@ export const useAuthStore = defineStore({
           msgStore.setMessage(
             "You successfully activated your account and can proceed to login now!"
           );
-          console.log("successfully activated account: ", response);
         }
       } catch (error) {
         const errData = (error as AxiosError).response?.data;
