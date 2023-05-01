@@ -16,6 +16,10 @@ Take a look at [addev - live chat](https://addev-livechatvue.netlify.app/).
 
 You will need to create two accounts to be able to chat (or you are lucky and there is someone else online). I recommend to use temporary emails such as [temp-mail](https://temp-mail.org/) or [tempmailo](https://tempmailo.com/) to get registered. You can afterwards delete your account in the `/profile` section of the app. 
 
+You can also use the following two accounts to quickly have a look, you can change avatar and username, but please don't delete these accounts: 
+1. EmaiL: '7fd1a7a94d@fireboxmail.lol' / Password: 'password4321'
+2. EmaiL: 'h7eidaawz@qiott.com' / Password: 'password4321'
+
 ## Try it out on your local machine
 
 If you want to try it out locally, download the repository, set up a MongoDB test database, and define your `.env` file. Then run the following commands and scripts defined in `package.json`:
